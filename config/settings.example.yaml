@@ -1,0 +1,38 @@
+# ============================================
+# REX-BRAIN CONFIGURATION - EXAMPLE
+# ============================================
+# Copy this file to settings.yaml and fill in your API keys
+
+# --------------------------------------------
+# ROBOT IDENTITY
+# --------------------------------------------
+robot:
+  name: "Rex"
+  language: "fr"
+  masters:
+    - "Caroline"
+    - "Sam"
+    - "Florent"
+
+# --------------------------------------------
+# API KEYS (REPLACE WITH YOUR OWN)
+# --------------------------------------------
+api_keys:
+  # Get from: https://console.deepgram.com/
+  deepgram: "YOUR_DEEPGRAM_API_KEY"
+  
+  # Get from: https://platform.openai.com/api-keys
+  openai: "YOUR_OPENAI_API_KEY"
+  
+  # Get from: https://console.anthropic.com/
+  anthropic: "YOUR_ANTHROPIC_API_KEY"
+
+# --------------------------------------------
+# ROBOT CONNECTION
+# --------------------------------------------
+connection:
+  robot_ip: "192.168.12.1"
+  webrtc_port: 8080
+
+# ... rest of configuration (see settings.yaml)
+
